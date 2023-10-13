@@ -1,0 +1,44 @@
+body {
+    max-width: 1200;
+    margin: 0 auto;
+    background-color: white;
+
+
+
+    ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    }
+
+    img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    }
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .imagem-redonda {
+    width: 100px; 
+    height: 100px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+  }
+  
+  .imagem-redonda img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+
